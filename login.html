@@ -1,0 +1,262 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <title>Login</title>
+    <!-- Font Awesome -->
+    <link
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css"
+      rel="stylesheet"
+    />
+    <!-- Google Fonts -->
+    <link
+      href="https://fonts.googleapis.com/css?family=Roboto:300,400,500,700&display=swap"
+      rel="stylesheet"
+    />
+    <!-- MDB -->
+    <link
+      href="https://cdnjs.cloudflare.com/ajax/libs/mdb-ui-kit/6.0.1/mdb.min.css"
+      rel="stylesheet"
+    />
+    <link rel="icon" href="img/j logo.jpg">
+  </head>
+  <style media="screen">
+    #log{
+      border-radius: 50%;
+    }
+    #bg{
+    background-image: linear-gradient(182deg, #e70000 , black , #9191ff);
+    }
+    #carouselExampleCaptions{
+      width: 80%;
+      height: auto;
+      transform: translate(130px , 30px);
+
+    }
+
+      #carouselExampleCaptions img{
+        border-radius: 15%  4% 15% 4%;
+      }
+      body{
+      background-image: linear-gradient(6deg, #e70000 , black , #9191ff);
+      }
+.card-group{
+  margin: 30px;
+}
+.card{
+  margin: 10px;
+      border: 2px #106aff solid
+}
+#bg{
+  width: 96%;
+  height: 9%;
+  position: fixed;
+  z-index: 1;
+  border-radius: 30px;
+  transform: translate(20px , 3px);
+}
+.btn-outline-success{
+  width: 300px;
+  transform: translate(-90px);
+  color: white;
+  border: double 2px;
+}
+.text-lg-start{
+  width: 113%;
+  transform: translate(-60px, 20px);
+  border-radius: 20%;
+height:0px;
+}
+.table{
+  border: red;
+}
+
+.ratio>* {
+    position: absolute;
+    top: 0;
+    left: 120px;
+    width: 80%;
+    height: 70%;
+    border-radius: 4%;
+    transform: translate(0px ,70px);
+    border: double 2px red;
+
+}
+@media (min-width: 576px)
+.container, .container-sm {
+    max-width: 540px;
+    transform: translate(40px, 10px);
+}
+.carousel-inner {
+    position: relative;
+    width: 90%;
+    overflow: hidden;
+  }
+#bc{
+  color:red;
+}
+#bc:hover{
+  color:white;
+}
+
+  </style>
+  <body>
+    <nav id="bg" class="navbar navbar-expand-lg navbar navbar-dark bg-dark">
+      <div class="container-fluid">
+        <a class="navbar-brand" href="a-world-1.0.0/index.html">
+      <img id="log" src="img/j logo.jpg" alt="Logo" width="40" height="34" class="d-inline-block align-text-top">
+      Jihad Site
+    </a>
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+          <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+
+
+
+            <li class="nav-item">
+              <a id="bc" class="nav-link" href="index1.html"  >HOME</a>
+            </li>
+          </ul>
+
+  <a target="_blank" href="http://google.com"> <button  class="btn btn-outline-success" type="submit">Search By Google</button></a>
+
+        </div>
+      </div>
+    </nav>
+
+<br>
+    <form style="max-width:450px; padding:40px;margin:auto;">
+      <!-- Email input -->
+      <div class="form-outline mb-4">
+        <input type="email" id="form1Example1" class="form-control" />
+        <label style="color:white" class="form-label" for="form1Example1">Email address</label>
+      </div>
+
+      <!-- Password input -->
+      <div style="color:white" class="form-outline mb-4">
+        <input type="password" id="form1Example2" class="form-control" />
+        <label style="color:white" class="form-label" for="form1Example2">Password</label>
+      </div>
+
+      <!-- 2 column grid layout for inline styling -->
+      <div class="row mb-4">
+        <div class="col d-flex justify-content-center">
+          <!-- Checkbox -->
+          <div class="form-check">
+            <input class="form-check-input" type="checkbox" value="" id="form1Example3" checked />
+            <label style="color:white" class="form-check-label" for="form1Example3"> Remember me </label>
+          </div>
+        </div>
+
+        <div class="col">
+          <!-- Simple link -->
+          <a style="color:red" href="#!">Forgot password?</a>
+        </div>
+      </div>
+
+      <!-- Submit button -->
+      <button type="submit" class="btn btn-primary btn-block">Sign in</button>
+    </form>
+    <!-- Remove the container if you want to extend the Footer to full width. -->
+    <div class="container my-5">
+
+      <footer id="ft" class="text-white text-center text-lg-start bg-dark">
+        <!-- Grid container -->
+        <div class="container p-4">
+          <!--Grid row-->
+          <div class="row mt-4">
+            <!--Grid column-->
+            <div class="col-lg-4 col-md-12 mb-4 mb-md-0">
+              <h5 class="text-uppercase mb-4">BMW company</h5>
+
+              <p>
+                The BMW Group company profile.
+      Today, the BMW Group, with its 31 production and assembly facilities in 15 countries as well as a global sales network, is the world's leading manufacturer of premium automobiles and motorcycles, and provider of premium financial and mobility services.
+              </p>
+
+              <div class="mt-4">
+                <!-- Facebook -->
+                <a href="https://www.facebook.com/BMW/" target="_blank" type="button" class="btn btn-floating btn-light btn-lg"><i class="fab fa-facebook-f"></i></a>
+
+                <!-- Twitter -->
+                <a type="button" href="https://twitter.com/bmwgroup" target="_blank" class="btn btn-floating btn-light btn-lg"><i class="fab fa-twitter"></i></a>
+                <!-- Google + -->
+                <a type="button" href="https://www.bmw.com/en/innovation/bmw-android-auto.html" target="_blank" class="btn btn-floating btn-light btn-lg"><i class="fab fa-google-plus-g"></i></a>
+                <!-- Linkedin -->
+              </div>
+            </div>
+            <!--Grid column-->
+
+            <!--Grid column-->
+            <div class="col-lg-4 col-md-6 mb-4 mb-md-0">
+              <h5 class="text-uppercase mb-4 pb-1">Search something</h5>
+
+              <div class="form-outline form-white mb-4">
+                <input type="text" id="formControlLg" class="form-control form-control-lg" />
+                <label class="form-label" for="formControlLg">Search</label>
+              </div>
+
+              <ul class="fa-ul" style="margin-left: 1.65em;">
+                <li class="mb-3">
+                <a href="https://goo.gl/maps/FEWhbaxFrjz87vnH8">  <span class="fa-li"><i class="fas fa-home"></i></span><span class="ms-2">BMW, 00-967, Germany</span></a>
+                </li>
+                <li class="mb-3">
+                <a href="mailto:jocy_4e@hotmail.com"><span class="fa-li"><i class="fas fa-envelope"></i></span><span class="ms-2">jocy_4e@hotmail.com</span></a>
+                </li>
+                <li class="mb-3">
+                  <a onclick="alert('Calling Please Wait...')" href="tel:+971 50 740 1837"><span class="fa-li"><i class="fas fa-phone"></i></span><span class="ms-2">+971 50 740 1837</span></a>
+                </li>
+              </ul>
+            </div>
+            <!--Grid column-->
+
+            <!--Grid column-->
+            <div class="col-lg-4 col-md-6 mb-4 mb-md-0">
+              <h5 class="text-uppercase mb-4">Opening hours</h5>
+
+              <table class="table text-center text-white">
+                <tbody class="fw-normal">
+                  <tr>
+                    <td>Mon - Thu:</td>
+                    <td>8am - 9pm</td>
+                  </tr>
+                  <tr>
+                    <td>Fri - Sat:</td>
+                    <td>8am - 1am</td>
+                  </tr>
+                  <tr>
+                    <td>Sunday:</td>
+                    <td>9am - 10pm</td>
+                  </tr>
+                </tbody>
+              </table>
+            </div>
+            <!--Grid column-->
+          </div>
+          <!--Grid row-->
+        </div>
+        <!-- Grid container -->
+
+        <!-- Copyright -->
+        <div class="text-center p-3" style="    background-color: rgb(0 0 0 / 0%);color:red;">
+          © 2022 Copyright:
+          <a class="text-white" href="index1.html">Jihad's Sites</a>
+        </div>
+        <!-- Copyright -->
+      </footer>
+
+    </div>
+
+
+
+
+
+    <!-- MDB -->
+  <script
+    type="text/javascript"
+    src="https://cdnjs.cloudflare.com/ajax/libs/mdb-ui-kit/6.0.1/mdb.min.js"
+  ></script>
+  </body>
+</html>
